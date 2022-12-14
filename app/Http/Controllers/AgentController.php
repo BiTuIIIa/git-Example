@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AgentController extends Controller
 {
     public function index(){
-        dd(3);
+        return view('');
     }
 }
