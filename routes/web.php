@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('agent',[AgentController::class, 'index']);
+Route::get('hello',[AgentController::class,'privet']);
