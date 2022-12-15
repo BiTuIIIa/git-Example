@@ -11,6 +11,8 @@ class AgentController extends Controller
         return view('');
     }
     public function Area(){
-        return 'area';
+        dd(12345);
+        AgentModel::all();
     }
+
 }
