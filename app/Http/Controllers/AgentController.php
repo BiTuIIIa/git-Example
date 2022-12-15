@@ -12,7 +12,10 @@ class AgentController extends Controller
     }
     public function Area(){
         dd(12345);
-        AgentModel::all();
+        AgentModel::all();}
+
+    public function privet(){
+        echo 'hello word';
     }
 
 }
