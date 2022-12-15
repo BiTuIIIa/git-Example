@@ -9,4 +9,7 @@ class AgentController extends Controller
     public function index(){
         return view('');
     }
+    public function Area(){
+        return 'area';
+    }
 }
