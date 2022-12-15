@@ -15,4 +15,7 @@ class AgentController extends Controller
         AgentModel::all();
     }
 
+    public function abs(){
+
+    }
 }
